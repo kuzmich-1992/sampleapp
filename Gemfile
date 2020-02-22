@@ -55,6 +55,10 @@ group :test do
   gem 'webdrivers'
 end
 
+group :production do
+  gem 'rails_12factor', '0.0.2'
+end
+
 gem 'jquery-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-controller-testing'
