@@ -64,7 +64,7 @@ group :development, :test do
   gem 'sqlite3', '~> 1.4'
 end
 
-
+gem 'jquery-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-controller-testing'
 gem 'bcrypt', '3.1.12'
