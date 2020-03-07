@@ -63,3 +63,6 @@ gem 'jquery-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-controller-testing'
 gem 'bcrypt', '3.1.12'
+gem 'faker', '~> 1.6', '>= 1.6.6'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
